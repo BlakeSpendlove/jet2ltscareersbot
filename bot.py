@@ -64,9 +64,9 @@ async def on_ready():
 @tasks.loop(seconds=60)
 async def status_cycle():
     statuses = [
-        discord.Game(name="Pafos Airport"),                      # Playing
+        discord.Game(name="Edinbourgh Airport"),                      # Playing
         discord.Activity(type=discord.ActivityType.listening, name="Staff Apps"),  # Listening
-        discord.Activity(type=discord.ActivityType.watching, name="RYR Infractions")  # Watching
+        discord.Activity(type=discord.ActivityType.watching, name="Jet2 LTD Infractions")  # Watching
     ]
 
     # Pick a random status from the list
